@@ -38,7 +38,7 @@ namespace :fetcher do
   task :fetch_citizen_data => :environment do
     puts "fetch_citizen_data"
     kelurahans = Kelurahan.where(fetched: false)
-    Parallel.each(kelurahans, :in_threads => 8) do |kelurahan|
+    Parallel.each(kelurahans, :in_threads => 15) do |kelurahan|
       get_citizen_data(kelurahan)
     end
   end
