@@ -40,3 +40,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'parallel'
 gem 'httparty'
 gem 'nokogiri'
+gem "typhoeus"
