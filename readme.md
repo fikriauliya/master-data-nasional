@@ -12,6 +12,7 @@ Initial Setup:
     bundle
 	rake db:migrate
 	rake db:seed
+	
 Populate citizen data:
 
 	rake fetcher:fetch_citizen_data
