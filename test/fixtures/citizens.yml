@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nik: MyString
+  name: MyString
+  location_of_birth: MyString
+  kelurahan_id: 0
+
+two:
+  nik: MyString
+  name: MyString
+  location_of_birth: MyString
+  kelurahan_id: 0
